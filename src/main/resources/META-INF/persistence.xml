@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="msisms_msisms-api_war_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>msisms.lib.model.TblhEvaluation</class>
+    <class>msisms.lib.model.TbltEvaluationScore</class>
+    <class>msisms.model.TblhEvaluation</class>
+    <class>msisms.model.TbltEvaluationScore</class>
+    <class>msisms.model.TblmEvaluationSubject</class>
+    <class>msisms.model.TblmSchoolUnit</class>
+    <class>msisms.model.TblhSchoolTeacher</class>
+    <class>msisms.model.TblmSchoolGrade</class>
+    <class>msisms.model.TblhEmployee</class>
+    <class>msisms.model.TblmStudentCategory</class>
+    <class>msisms.model.TblmCbu</class>
+    <class>msisms.model.TblmSchoolClass</class>
+    <class>msisms.model.TblmSchoolRoom</class>
+    <class>msisms.model.TblhStudent</class>
+    <class>msisms.model.TblmSchoolLevel</class>
+    <class>msisms.model.MsismsTbltEvaluationScore</class>
+    <class>msisms.model.MsismsTblhEvaluation</class>
+    <class>msisms.model.MsismsTblhEmployee</class>
+    <class>msisms.model.MsismsTblmStudentCategory</class>
+    <class>msisms.model.MsismsTblhSchoolTeacher</class>
+    <class>msisms.model.MsismsTblmSchoolClass</class>
+    <class>msisms.model.MsismsTblmEvaluationSubject</class>
+    <class>msisms.model.MsismsTblmSchoolUnit</class>
+    <class>msisms.model.MsismsTblmCbu</class>
+    <class>msisms.model.MsismsTblhStudent</class>
+    <class>msisms.model.MsismsTblmSchoolRoom</class>
+    <class>msisms.model.MsismsTblmSchoolLevel</class>
+    <class>msisms.model.MsismsTblmSchoolGrade</class>
+    <class>msisms.model.MsismsMstSchoolRoom</class>
+    <class>msisms.model.MsismsTrxEvaluationScore</class>
+    <class>msisms.model.MsismsHdrEmployee</class>
+    <class>msisms.model.MsismsMstCbu</class>
+    <class>msisms.model.MsismsMstSchoolUnit</class>
+    <class>msisms.model.MsismsMstSchoolGrade</class>
+    <class>msisms.model.MsismsMstSchoolLevel</class>
+    <class>msisms.model.MsismsMstSchoolClass</class>
+    <class>msisms.model.MsismsMstStudentCategory</class>
+    <class>msisms.model.MsismsHdrSchoolTeacher</class>
+    <class>msisms.model.MsismsMstEvaluationSubject</class>
+    <class>msisms.model.MsismsHdrStudent</class>
+    <class>msisms.model.MsismsHdrEvaluation</class>
+    <class>msisms.model.MsismsTblhstudent</class>
+    <class>msisms.model.MsismsTbltStudentFile</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://38.47.68.126:5432/dev_msisms"/>
+      <property name="javax.persistence.jdbc.user" value="msismsdev"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="msi010803"/>
+    </properties>
+  </persistence-unit>
+</persistence>
